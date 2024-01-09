@@ -62,3 +62,7 @@ Install serve globally
 Run serve using build folder
 
 ### `npx serve -s build` or `serve -s build`
+
+If get syntax error after build, need to remove `homepage` key from package.json and then rebuild and run `serve -s build`
+
+But before production deployment, it's necessary to add `homepage` key in the package.json file
