@@ -34,3 +34,16 @@ code {
   padding-top: 0.25rem !important;
   padding-bottom: 0 !important;
 } */
+
+/* To hide horizontal scrolling of products in landing page */
+.slider {
+  width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* =============================== */

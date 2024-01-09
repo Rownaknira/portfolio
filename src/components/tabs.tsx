@@ -8,6 +8,14 @@ import { Avatar, Paper, Typography, Link } from "@mui/material";
 import styled from "styled-components";
 import { FeatureList } from "./List";
 import { device } from "../styles/breakpoints";
+import infodigita from "../images/infodigita.jpeg";
+import bitfountain from "../images/bitfountain.jpeg";
+import bcc from "../images/bcc.jpeg";
+import framgia from "../images/framgia.jpeg";
+import infosys from "../images/infosys.png";
+import smef from "../images/smef.png";
+import era from "../images/era.png";
+import isqi from "../images/isqi.jpg";
 
 const paperStyle = {
   margin: "1rem",
@@ -59,7 +67,7 @@ export default function IconLabelTabs() {
           <Paper sx={certificationPaperStyle}>
             <Avatar
               alt="infodigita"
-              src="infodigita.jpeg"
+              src={infodigita}
               sx={{ avatarStyle }}
             ></Avatar>
             <div style={{ paddingLeft: "1rem" }}>
@@ -91,7 +99,7 @@ export default function IconLabelTabs() {
                   text="Bug
               fixing of existing features"
                 />
-                <FeatureList text="Feed and backfeed Bexio data into Zytrack Application" />
+                <FeatureList text="Integrate Bexio with Zytrack" />
               </Typography>
             </div>
           </Paper>
@@ -99,7 +107,7 @@ export default function IconLabelTabs() {
           <Paper sx={certificationPaperStyle}>
             <Avatar
               alt="bitfountain"
-              src="bitfountain.jpeg"
+              src={bitfountain}
               sx={{ avatarStyle }}
             ></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
@@ -135,29 +143,14 @@ export default function IconLabelTabs() {
               <Typography variant="body2">
                 <b>Responsibilities:</b>
 
-                <FeatureList
-                  text="Analyze requirement, implementation
-              planning, prepare High level and low level design, database
-              design, UI prototype design"
-                />
-                <FeatureList text="Implement Restful API using Ruby on Rails with MySQL" />
-                <FeatureList
-                  text="Work with external APIs i.e., Shopify (REST APIs & GraphQL
-              APIs), Sendgrid APIs"
-                />
-                <FeatureList
-                  text="Develop frontend using React JS, next.js, Typescript and
-              Material UI"
-                />
-                <FeatureList
-                  text="Write unit test cases. Conduct functional testing, prepare test
-              document and share the deliverables with the client"
-                />
-                <FeatureList text="Deploy using Capistrano" />
-                <FeatureList
-                  text="Use different Amazon web services like Redshift, RDS, S3,
-              EC2, Amplify"
-                />
+                <FeatureList text="Led software development initiative and primary point-of-contact for project management staff." />
+                <FeatureList text="Collaborated with management, internal and development partners regarding software application design status and project progress." />
+                <FeatureList text="Provided guidance and mentored less-experienced staff members." />
+                <FeatureList text="Provided direction and guidance to process improvements" />
+                <FeatureList text="Integrated third-party tools and components into applications i.e., Shopify, Sendgrid" />
+                <FeatureList text="Developed automation tool to perform all microservices automatically to up and running new clients" />
+                <FeatureList text="Deployed application using Capistrano" />
+                <FeatureList text="Used different Amazon web services like Redshift, RDS, S3, EC2, Amplify" />
               </Typography>
               <br />
               <br />
@@ -188,22 +181,20 @@ export default function IconLabelTabs() {
                   text="Analyze requirement of assigned tasks and implementation
                 planning"
                 />
-                <FeatureList
-                  text="Develop frontend with React JS, Redux, Typescript and
-Material-UI."
-                />
+                <FeatureList text="Develop frontend with React JS, Redux, Typescript and Material-UI." />
                 <FeatureList text="Implement Restful API using Ruby on Rails with MySQL." />
                 <FeatureList text="Write unit test cases using Rspec" />
                 <FeatureList
                   text="Document API request and response using Swagger – OpenAPI
                 Specification."
                 />
+                <FeatureList text="Provided guidance and mentored less-experienced staff members." />
               </Typography>
             </div>
           </Paper>
 
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="bcc" src="bcc.jpeg" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="bcc" src={bcc} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 <Link href="https://bcc.gov.bd/" underline="none">
@@ -219,8 +210,10 @@ Material-UI."
               </Typography>
               <Typography variant="body2">
                 <b>Responsibilities:</b>
+                <FeatureList text="Led software testing team and primary point-of-contact for project management staff." />
                 <FeatureList text="Prepare Test plan & Risk management procedure" />
                 <FeatureList text="Test case authoring and execution" />
+                <FeatureList text="Provided guidance and mentored less-experienced staff members." />
                 <FeatureList text="Conduct Retrospective and contribute to process improvement" />
                 <FeatureList
                   text="Conduct Security testing based on OWASP top 10 security
@@ -230,17 +223,13 @@ Material-UI."
                   text="Conduct Performance Testing using HP Loadrunner &
                 JMeter"
                 />
-                <FeatureList text="Develop in-house software for organization" />
+                <FeatureList text="Developed and maintained in-house software for organization" />
               </Typography>
             </div>
           </Paper>
 
           <Paper sx={certificationPaperStyle}>
-            <Avatar
-              alt="framgia"
-              src="framgia.jpeg"
-              sx={{ avatarStyle }}
-            ></Avatar>
+            <Avatar alt="framgia" src={framgia} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 <Link href="https://en.sun-asterisk.com/" underline="none">
@@ -266,11 +255,7 @@ Vietnamese and Japanese engineers and clients"
           </Paper>
 
           <Paper sx={certificationPaperStyle}>
-            <Avatar
-              alt="infosys"
-              src="infosys.png"
-              sx={{ avatarStyle }}
-            ></Avatar>
+            <Avatar alt="infosys" src={infosys} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 <Link href="https://www.infosys.com/" underline="none">
@@ -293,7 +278,7 @@ Vietnamese and Japanese engineers and clients"
           </Paper>
 
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="smef" src="smef.png" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="smef" src={smef} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 <Link href="http://www.smef.gov.bd/" underline="none">
@@ -308,17 +293,14 @@ Vietnamese and Japanese engineers and clients"
               </Typography>
               <Typography variant="body2">
                 <b>Responsibilities:</b>
-                <FeatureList text="Web development following SDLC" />
-                <FeatureList
-                  text="Customize e-Commerce website using WordPress and
-                WooCommerce"
-                />
+                <FeatureList text="Web development following SDLC using CakePHP, JQuery and Bootstrap CSS" />
+                <FeatureList text="Customize e-Commerce website using WordPress and WooCommerce" />
               </Typography>
             </div>
           </Paper>
 
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="ERA" src="era.png" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="ERA" src={era} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 <Link href="https://www.erainfotechbd.com/" underline="none">
@@ -333,14 +315,8 @@ Vietnamese and Japanese engineers and clients"
               </Typography>
               <Typography variant="body2">
                 <b>Responsibilities:</b>
-                <FeatureList
-                  text="Develop large scale web application using Oracle Web
-Application Express(ApEx) in Banking domain"
-                />
-                <FeatureList
-                  text="Write stored procedures and functions in PL/SQL for
-                application"
-                />
+                <FeatureList text="Develop large scale web application using Oracle Web Application Express(ApEx) in Banking domain" />
+                <FeatureList text="Write stored procedures and functions in PL/SQL for application" />
               </Typography>
             </div>
           </Paper>
@@ -374,7 +350,7 @@ Application Express(ApEx) in Banking domain"
             {/* <StyledImageContainer> */}
             <Avatar
               alt="Infosys Limited"
-              src="infosys.png"
+              src={infosys}
               sx={{ avatarStyle }}
             ></Avatar>
             {/* </StyledImageContainer> */}
@@ -391,7 +367,7 @@ Application Express(ApEx) in Banking domain"
             </div>
           </Paper>
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="ISTQB" src="isqi.jpg" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="ISTQB" src={isqi} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 ISTQB® Certified Tester Foundation Level
@@ -408,7 +384,7 @@ Application Express(ApEx) in Banking domain"
             </div>
           </Paper>
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="ISTQB" src="isqi.jpg" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="ISTQB" src={isqi} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 ISTQB® Certified Tester Foundation Level – Extension, Agile
@@ -426,7 +402,7 @@ Application Express(ApEx) in Banking domain"
             </div>
           </Paper>
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="ISTQB" src="isqi.jpg" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="ISTQB" src={isqi} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 ISTQB® Certified Tester Advanced Level, Test Analyst
@@ -443,7 +419,7 @@ Application Express(ApEx) in Banking domain"
             </div>
           </Paper>
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="ISTQB" src="isqi.jpg" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="ISTQB" src={isqi} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 CMAP© Certified Mobile App Professional Foundation Level, Test
@@ -461,7 +437,7 @@ Application Express(ApEx) in Banking domain"
             </div>
           </Paper>
           <Paper sx={certificationPaperStyle}>
-            <Avatar alt="ISTQB" src="isqi.jpg" sx={{ avatarStyle }}></Avatar>
+            <Avatar alt="ISTQB" src={isqi} sx={{ avatarStyle }}></Avatar>
             <div style={{ paddingLeft: "2rem" }}>
               <Typography variant="h6">
                 CMAP© Certified Mobile App Professional Performance Testing
@@ -483,10 +459,7 @@ Application Express(ApEx) in Banking domain"
   );
 }
 
-const StyledContainer = styled.div`
-  background-color: #f4f4f4;
-  margin: 2rem;
-`;
+const StyledContainer = styled.div``;
 
 const StyledExperienceContainer = styled.div`
   padding: 2rem;

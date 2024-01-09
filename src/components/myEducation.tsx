@@ -10,14 +10,22 @@ const titleStyle = {
 
 export const MyEducation = () => {
   return (
-    <StyledContainer>
-      <Typography variant="h5" sx={titleStyle}>
-        MORE ABOUT OF ME
-      </Typography>
-      <IconLabelTabs />
-    </StyledContainer>
+    <StyledFullWidthContainer>
+      <StyledContainer>
+        <Typography variant="h5" sx={titleStyle}>
+          MORE ABOUT OF ME
+        </Typography>
+        <IconLabelTabs />
+      </StyledContainer>
+    </StyledFullWidthContainer>
   );
 };
+
+const StyledFullWidthContainer = styled.div`
+  background-color: #f4f4f4;
+  width: 100%;
+  padding-top: 2rem;
+`;
 
 const StyledContainer = styled.div`
   width: 70%;

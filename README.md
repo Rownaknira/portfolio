@@ -44,3 +44,25 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Run project locally
+
+### `yarn start`
+
+## Run production build locally
+
+Generate production build using the following command
+
+### `yarn build`
+
+Install serve globally
+
+### `yarn global add serve`
+
+Run serve using build folder
+
+### `npx serve -s build` or `serve -s build`
+
+If get syntax error after build, need to remove `homepage` key from package.json and then rebuild and run `serve -s build`
+
+But before production deployment, it's necessary to add `homepage` key in the package.json file
