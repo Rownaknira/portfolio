@@ -1,15 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.79a75e04.css",
-    "main.js": "/portfolio/static/js/main.9fea451a.js",
+    "main.css": "/portfolio/static/css/main.ec401de9.css",
+    "main.js": "/portfolio/static/js/main.5d4523a7.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/isqi.jpg": "/portfolio/static/media/isqi.2f6376f4aef89bf16043.jpg",
+    "static/media/avatar4.png": "/portfolio/static/media/avatar4.80e2af6432f16a848050.png",
+    "static/media/harutaka.png": "/portfolio/static/media/harutaka.86f9955269bda67cf121.png",
+    "static/media/zytrack.png": "/portfolio/static/media/zytrack.943c334510a93caabe2b.png",
+    "static/media/pg.png": "/portfolio/static/media/pg.4afc0becf5147dfb24ae.png",
+    "static/media/rownak.jpg": "/portfolio/static/media/rownak.ca338d07919b3e3b8534.jpg",
+    "static/media/s3.png": "/portfolio/static/media/s3.18a7391093211f2eff21.png",
+    "static/media/mysql.jpg": "/portfolio/static/media/mysql.e5efd0c6a5d95d1875ed.jpg",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.d1a7ac440b0e1bb04419.jpg",
+    "static/media/booster-shopify2.png": "/portfolio/static/media/booster-shopify2.0032adddf053358a23e7.png",
+    "static/media/shopify.png": "/portfolio/static/media/shopify.47659f57e516801996af.png",
+    "static/media/swagger.png": "/portfolio/static/media/swagger.81a4c257b81f7ac667b6.png",
+    "static/media/reactjs2.png": "/portfolio/static/media/reactjs2.9a20cea248090998dceb.png",
+    "static/media/boostrap5.png": "/portfolio/static/media/boostrap5.2800bb3ed6b40097a8d7.png",
+    "static/media/infosys.png": "/portfolio/static/media/infosys.9034e739813c4f05d9f6.png",
+    "static/media/nextjs.png": "/portfolio/static/media/nextjs.331efda6800a28298b1b.png",
+    "static/media/smef.png": "/portfolio/static/media/smef.becd3a45f5e7ccd5573d.png",
+    "static/media/era.png": "/portfolio/static/media/era.e82a1dd078a896c6810e.png",
+    "static/media/rails.png": "/portfolio/static/media/rails.4b996d690c85dd90404e.png",
+    "static/media/bcc.jpeg": "/portfolio/static/media/bcc.35a89024b48d8cf16cd6.jpeg",
+    "static/media/bitfountain.jpeg": "/portfolio/static/media/bitfountain.177e0104856d8bb0e076.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.79a75e04.css.map": "/portfolio/static/css/main.79a75e04.css.map",
-    "main.9fea451a.js.map": "/portfolio/static/js/main.9fea451a.js.map",
+    "main.ec401de9.css.map": "/portfolio/static/css/main.ec401de9.css.map",
+    "main.5d4523a7.js.map": "/portfolio/static/js/main.5d4523a7.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79a75e04.css",
-    "static/js/main.9fea451a.js"
+    "static/css/main.ec401de9.css",
+    "static/js/main.5d4523a7.js"
   ]
 }
