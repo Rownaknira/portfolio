@@ -10,6 +10,7 @@ import FileDownloadRoundedIcon from "@mui/icons-material/FileDownloadRounded";
 import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import avatar from "../images/avatar4.png";
 
 const titleStyle = {
   color: "#ea484a",
@@ -22,6 +23,7 @@ const dividerStyle = {
 
 const downloadButtonStyle = {
   backgroundColor: "#ea484a",
+  fontWeight: 800,
   "&:hover": {
     backgroundColor: "#d1344b",
   },
@@ -30,11 +32,6 @@ const downloadButtonStyle = {
 export const AboutMyself = () => {
   return (
     <StyledMyselfContainer>
-      <StyledImageContainer>
-        {/* <StyledBackgroundDiv></StyledBackgroundDiv> */}
-        <StyledImage src="bg1.jpg"></StyledImage>
-      </StyledImageContainer>
-
       <StyledDescription>
         <Typography variant="h5" sx={titleStyle}>
           ABOUT MYSELF
@@ -173,6 +170,10 @@ export const AboutMyself = () => {
           DOWNLOAD CV
         </Button>
       </StyledDescription>
+      <StyledImageContainer>
+        {/* <StyledBackgroundDiv></StyledBackgroundDiv> */}
+        <StyledImage src={avatar}></StyledImage>
+      </StyledImageContainer>
     </StyledMyselfContainer>
   );
 };
@@ -181,7 +182,6 @@ const StyledMyselfContainer = styled.div`
   width: 70%;
   margin: auto;
   display: flex;
-
   @media ${device.sm} {
     width: 100%;
     flex-direction: column;
@@ -189,8 +189,9 @@ const StyledMyselfContainer = styled.div`
 `;
 
 const StyledImage = styled.img`
-  width: 25rem;
+  width: 30rem;
   height: 28rem;
+
   @media ${device.sm} {
     width: 22rem;
     height: 16.25rem;
@@ -199,13 +200,15 @@ const StyledImage = styled.img`
 
 // const StyledBackgroundDiv = styled.div`
 //   width: 22rem;
-//   height: 25rem;
+//   height: 28rem;
 //   margin-top: 1.5rem;
+//   position: absolute;
 //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 // `;
 
 const StyledImageContainer = styled.div`
   margin: 2rem;
+
   @media ${device.sm} {
     height: 17rem;
   }
